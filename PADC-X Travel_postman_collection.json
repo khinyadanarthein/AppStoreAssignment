@@ -1,0 +1,133 @@
+{
+	"info": {
+		"_postman_id": "98a5b585-a876-421f-b736-59bd2b1339cc",
+		"name": "PADC-X Travel",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Countries",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": [
+				{
+					"name": "Get Countries",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/getAllCountries",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"getAllCountries"
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Encoding",
+							"value": "gzip"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Date",
+							"value": "Wed, 19 Feb 2020 02:55:07 GMT"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"a4-rWRPj2mTYaJV0RsNNd+2EgzcJ9Q\""
+						},
+						{
+							"key": "Server",
+							"value": "nginx"
+						},
+						{
+							"key": "Vary",
+							"value": "Accept-Encoding"
+						},
+						{
+							"key": "X-RateLimit-Limit",
+							"value": "120"
+						},
+						{
+							"key": "X-RateLimit-Remaining",
+							"value": "119"
+						},
+						{
+							"key": "X-RateLimit-Reset",
+							"value": "1582080967"
+						},
+						{
+							"key": "x-srv-span",
+							"value": "v=1;s=83f402ee69a7340e"
+						},
+						{
+							"key": "x-srv-trace",
+							"value": "v=1;t=50afaea8c6f38cec"
+						},
+						{
+							"key": "Content-Length",
+							"value": "139"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						}
+					],
+					"cookie": [],
+					"body": "{\n   \"code\" : 200,\n   \"message\" : \"Success get all countries\",\n   \"data\" : [\n            {\n                \"name\": \"Sea Flower Resort\",\n                \"description\": \"Located in Ko Chang, within 17.7 km of Koh Chang National Park and 19.3 km of Wat Klong Son, Sea Flower Resort provides accommodations with a garden and free WiFi as well as free private parking for guests who drive. The property is around 20.9 km from Ao Sapparot Pier, 4.7 km from Bang Bao Pier and 4.7 km from Bang Bao Fisherman Village. The property has valet parking, a tour desk and ticket service for guests.The resort has a terrace.Klong Plu Waterfall is 9.7 km from Sea Flower Resort, while International Clinic, Ko Chang is 12.9 km away.Lonely Beach is a great choice for travelers interested in friendly locals, sunsets and food.\",\n                \"location\": \"Koh Chang Thailand\",\n                \"average_rating\": 3,\n                \"scores_and_reviews\": [\n                    {\n                        \"name\": \"Booking\",\n                        \"score\": 8,\n                        \"max_score\": 10,\n                        \"total_reviews\": 140\n                    },\n                    {\n                        \"name\": \"Hotel Out\",\n                        \"score\": 3.5,\n                        \"max_score\": 5,\n                        \"total_reviews\": 80\n                    }\n                ],\n                \"photos\": [\n                    \"https://r-cf.bstatic.com/images/hotel/max1280x900/175/175821872.jpg\",\n                    \"https://r-cf.bstatic.com/images/hotel/max1280x900/100/100195253.jpg\",\n                    \"https://r-cf.bstatic.com/images/hotel/max1280x900/100/100195253.jpg\",\n                    \"https://r-cf.bstatic.com/images/hotel/max1280x900/100/100195280.jpg\",\n                    \"https://r-cf.bstatic.com/images/hotel/max1280x900/999/99977869.jpg\"\n                ]\n            },\n            {\n                \"name\": \"Pullman Phuket Arcadia Naithon Beach\",\n                \"description\": \" Perched on the headland overlooking the crystal waters of the Andaman Sea. Pullman Phuket Arcadia Naithon Beach is the most stunning Phuket Resort for a tranquil escape.This luxury, 5 star Phuket Resort boasts a charming setting with ocean views. Set against the backdrop of Naithon Beach. Blurring the lines between the pool, sea and sky. Guests have direct access to Naithon Beach. Named one of the best beaches on the west coast of Phuket.Just a 12 minute drive from the Airport, your vacation starts sooner and lasts longer at this Phuket Resort.\",\n                \"location\": \"22/2 Moo 4 Tambon Saku, Amphur Talang, 83110 Phuket Thailand\",\n                \"average_rating\": 5,\n                \"scores_and_reviews\": [\n                    {\n                        \"name\": \"Booking\",\n                        \"score\": 8,\n                        \"max_score\": 10,\n                        \"total_reviews\": 140\n                    },\n                    {\n                        \"name\": \"Hotel Out\",\n                        \"score\": 4.5,\n                        \"max_score\": 5,\n                        \"total_reviews\": 80\n                    }\n                ],\n                \"photos\": [\n                    \"https://d2e5ushqwiltxm.cloudfront.net/wp-content/uploads/sites/65/2019/01/08043034/Phuket-Resort.png\",\n                    \"https://d2e5ushqwiltxm.cloudfront.net/wp-content/uploads/sites/65/2019/01/08043034/Phuket-Resort.png\",\n                    \"https://d2e5ushqwiltxm.cloudfront.net/wp-content/uploads/sites/65/2019/01/08043034/Phuket-Resort.png\"\n                ]\n            },\n            {\n                \"name\": \"Resort Krabi Ao Nang Beach\",\n                \"description\": \"Replay Residences Samui is a 2-minute walk from Bangrak Beach. It offers stylish rooms with a kitchen and free WiFi. The property is equipped with a pool, 24-hour front desk and tour desk.The property is a 5-minute drive from Fisherman’s Village and a 7-minute drive from Big Buddha and Bangrak Pier. Replay Residences Samui is a 12-minute drive from Samui Airport.Rooms are furnished with modern décor. Each room comes with a flat-screen TV, telephone and safety deposit box. Shower facilities are included in an private bathroom.Guests can enjoy Thai and international dishes all day at the on-site restaurant.We speak your language!\",\n                \"location\": \"Bangrak Beach, Bophut, Koh Samui, Suratthani , 84320 Bangrak Beach, Thailand\",\n                \"average_rating\": 4.5,\n                \"scores_and_reviews\": [\n                    {\n                        \"name\": \"Booking\",\n                        \"score\": 7,\n                        \"max_score\": 10,\n                        \"total_reviews\": 140\n                    },\n                    {\n                        \"name\": \"Hotel Out\",\n                        \"score\": 3,\n                        \"max_score\": 5,\n                        \"total_reviews\": 80\n                    }\n                ],\n                \"photos\": [\n                    \"https://q-cf.bstatic.com/images/hotel/max1280x900/143/143761781.jpg\",\n                    \"https://r-cf.bstatic.com/images/hotel/max1280x900/140/140012308.jpg\",\n                    \"https://r-cf.bstatic.com/images/hotel/max1280x900/140/140012131.jpg\",\n                    \"https://r-cf.bstatic.com/images/hotel/max1280x900/140/140012003.jpg\",\n                    \"https://r-cf.bstatic.com/images/hotel/max1280x900/317/31741387.jpg\"\n                ]\n            },\n            {\n                \"name\": \"Collection O 7 Hotel Melawai\",\n                \"description\": \"Hotel Melawai 1 is located at Blok M Main Shopping Center in Kebayoran Baru, a 10-minute drive from Jakarta Convention Center. This modern hotel has a spa and beauty salon. Free Wi-Fi is accessible in all areas.Melawai 1 Hotel is an hour's drive from Jakarta's Soekarno-Hatta International Airport. Guests who drive can enjoy free private parking.Fitted with warm lighting, the air-conditioned rooms at Melawai 1 are equipped with a flat-screen cable TV and a bathtub. Daily newspapers are delivered to the room, while paid Wi-Fi and a work desk are also included.Guests may send emails at the business center, enjoy manicures at the beauty salon or book a trip at the tour desk. For convenience, a business center and 24-hour room service are provided.Kenanga Coffee Shop and Restaurant serves Chinese, European and local meals. Afternoon snacks and drinks are available at Oasis Lounge.\",\n                \"location\": \"JL. Melawai Raya No. 18-20, 12160 Jakarta, Indonesia\",\n                \"average_rating\": 4,\n                \"scores_and_reviews\": [\n                    {\n                        \"name\": \"Booking\",\n                        \"score\": 8,\n                        \"max_score\": 10,\n                        \"total_reviews\": 140\n                    },\n                    {\n                        \"name\": \"Hotel Out\",\n                        \"score\": 3.5,\n                        \"max_score\": 5,\n                        \"total_reviews\": 80\n                    }\n                ],\n                \"photos\": [\n                    \"https://r-cf.bstatic.com/images/hotel/max1280x900/212/212034490.jpg\",\n                    \"https://r-cf.bstatic.com/images/hotel/max1280x900/195/195496921.jpg\",\n                    \"https://r-cf.bstatic.com/images/hotel/max1280x900/195/195496924.jpg\",\n                    \"https://r-cf.bstatic.com/images/hotel/max1280x900/195/195497173.jpg\",\n                    \"https://r-cf.bstatic.com/images/hotel/max1280x900/195/195497179.jpg\"\n                ]\n            },\n            {\n                \"name\": \"Capital O 534 Sriwijaya Hotel\",\n                \"description\": \"Sriwijaya Hotel is centrally located in Jakarta, a 5-minute walk from Monumen Nasional (Monas). Providing free Wi-Fi in public areas, it also has a barber shop, a business center and 24-hour room service. Parking is free.The modern air-conditioned rooms all include a flat-screen TV and minibar. Some rooms have a garden-facing terrace and tea/coffee-making facilities. Private bathrooms have hot-water showers.Built in a colonial style, Sriwijaya Hotel is a 20-minute drive from Mangga Dua Shopping Center and Ancol Amusement Park. It is a one hour drive from Soekarno Hatta International Airport.Guests can request a relaxing massage, rent a car or arrange day trips at the tour desk. The hotel also provides dry cleaning services and a 24-hour front desk.Sriwedari Restaurant serves a selection of Indonesian, European, Asian and Middle Eastern dishes. It is open for breakfast, lunch, afternoon tea and dinner.\",\n                \"location\": \"Jalan Veteran No.1, RT 04/02 Gambir, 10110 Jakarta, Indonesia\",\n                \"average_rating\": 4,\n                \"scores_and_reviews\": [\n                    {\n                        \"name\": \"Booking\",\n                        \"score\": 7,\n                        \"max_score\": 10,\n                        \"total_reviews\": 140\n                    },\n                    {\n                        \"name\": \"Hotel Out\",\n                        \"score\": 3,\n                        \"max_score\": 5,\n                        \"total_reviews\": 80\n                    }\n                ],\n                \"photos\": [\n                    \"https://r-cf.bstatic.com/images/hotel/max1280x900/222/222034902.jpg\",\n                    \"https://r-cf.bstatic.com/images/hotel/max1280x900/222/222034908.jpg\",\n                    \"https://r-cf.bstatic.com/images/hotel/max1280x900/222/222034760.jpg\",\n                    \"https://r-cf.bstatic.com/images/hotel/max1280x900/222/222034904.jpg\",\n                    \"https://q-cf.bstatic.com/images/hotel/max1280x900/222/222036169.jpg\"\n                ]\n            }\n        ]\n\n}"
+				}
+			]
+		},
+		{
+			"name": "Get Tours",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": [
+				{
+					"name": "Get Tours",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{url}}/getAllTours",
+							"host": [
+								"{{url}}"
+							],
+							"path": [
+								"getAllTours"
+							]
+						}
+					},
+					"_postman_previewlanguage": "json",
+					"header": null,
+					"cookie": [],
+					"body": "{\n\t\"code\" : 200,\n\t\"message\" : \"Success Get All Tours\",\n\t\"data\" :  [\n            {\n                \"name\": \" Neo Hotel Mangga Dua by ASTON\",\n                \"description\": \"Neo Hotel Mangga Dua by ASTON is a 10-minute drive from Ancol recreational area, housing a restaurant and a business center. Offering massage services, the hotel features stylish rooms with contemporary-style interiors. Wi-Fi is accessible for free throughout the building.A 10-minute drive from Neo Hotel Mangga Dua by ASTON also leads to ITC Mangga Dua and Alexis Night Club. It takes 40 minutes by car to reach the property from Soekarno-Hatta International Airport.Fitted with air conditioning and wooden flooring, rooms come with a flat-screen cable TV, electric kettle and a personal safe. City views can be enjoyed from each room, which also includes a private bathroom with shower facilities and free toiletries.The hotel operates a 24-hour front desk with luggage storage facilities. Staff can assist with laundry requests and airport pick-up arrangements.A variety of Asian, Chinese and Western dishes are served at Noodles Now. Meals may also be delivered to guests’ rooms.\",\n                \"location\": \"Gunung Sahari Raya No.1 Rukan Mangga Dua Square Blok A No. 10, 14420 Jakarta\",\n                \"average_rating\": 4,\n                \"scores_and_reviews\": [\n                    {\n                        \"name\": \"Hotel Review Team\",\n                        \"score\": 8,\n                        \"max_score\": 10,\n                        \"total_reviews\": 140\n                    },\n                    {\n                        \"name\": \"Travel Spies\",\n                        \"score\": 3.5,\n                        \"max_score\": 5,\n                        \"total_reviews\": 80\n                    }\n                ],\n                \"photos\": [\n                    \"https://r-cf.bstatic.com/images/hotel/max1280x900/123/123194889.jpg\",\n                    \"https://q-cf.bstatic.com/images/hotel/max1280x900/215/21546571.jpg\",\n                    \"https://r-cf.bstatic.com/images/hotel/max1280x900/215/21546567.jpg\",\n                    \"https://r-cf.bstatic.com/images/hotel/max1280x900/210/21029276.jpg\",\n                    \"https://r-cf.bstatic.com/images/hotel/max1280x900/215/21546576.jpg\"\n                ]\n            },\n            {\n                \"name\": \"Ibis Budget Jakarta Menteng\",\n                \"description\": \" Strategically located near popular restaurants, cafes and city park, Ibis Budget Jakarta Menteng offers accommodations with modern facilities and free WiFi. The on-site restaurants serves a variety of local and international dishes.For your convenience every room is equipped with a flat-screen TV. Some rooms offer comfortable bunk beds. Certain units have a seating area where you can relax after a long day of exploring the city. All rooms are equipped with a private bathroom and basic toiletries.There is concierge service at the property.Bundaran HI is 701 m from Ibis Budget Jakarta Menteng, while Sarinah is 0.7 mi away. The nearest airport is Halim Perdanakusuma Airport, 6.2 mi from Ibis Budget Jakarta Menteng.\",\n                \"location\": \"Jalan HOS Cokroaminoto No.79, Menteng, 10310 Jakarta, Indonesia \",\n                \"average_rating\": 4,\n                \"scores_and_reviews\": [\n                    {\n                        \"name\": \"Booking\",\n                        \"score\": 7,\n                        \"max_score\": 10,\n                        \"total_reviews\": 140\n                    },\n                    {\n                        \"name\": \"Hotel Out\",\n                        \"score\": 3.5,\n                        \"max_score\": 5,\n                        \"total_reviews\": 80\n                    }\n                ],\n                \"photos\": [\n                    \"https://q-cf.bstatic.com/images/hotel/max1280x900/171/171582458.jpg\",\n                    \"https://r-cf.bstatic.com/images/hotel/max1280x900/171/171582462.jpg\",\n                    \"https://r-cf.bstatic.com/images/hotel/max1280x900/171/171578583.jpg\",\n                    \"https://q-cf.bstatic.com/images/hotel/max1280x900/806/80659766.jpg\",\n                    \"https://r-cf.bstatic.com/images/hotel/max1280x900/806/80659873.jpg\"\n                ]\n            },\n            {\n                \"name\": \"Magical Townhouse near Walt Disney World \",\n                \"description\": \"Located in Orlando, just 8 km from Disney's Boardwalk, Magical Townhouse near Walt Disney World provides accommodations with an outdoor swimming pool, a fitness center and free WiFi. Housed in a building dating from 2019, this vacation home is 9.7 km from Disney's Hollywood Studios and 11.3 km from Epcot.The vacation home consists of 4 separate bedrooms, 4 bathrooms and a living room.The vacation home has a playground.Disney's Magic Kingdom is 16.1 km from Magical Townhouse near Walt Disney World, while Walt Disney World is 16.1 km away. The nearest airport is Orlando Executive Airport, 41.8 km from the accommodation.Celebration is a great choice for travelers interested in disneyland, family-friendly trips and tourist attractions.\",\n                \"location\": \"7540 Sunville Avenue, Celebration, Orlando, FL 34747, United States of America\",\n                \"average_rating\": 4.5,\n                \"scores_and_reviews\": [\n                    {\n                        \"name\": \"Booking\",\n                        \"score\": 7,\n                        \"max_score\": 10,\n                        \"total_reviews\": 140\n                    },\n                    {\n                        \"name\": \"Hotel Out\",\n                        \"score\": 3,\n                        \"max_score\": 5,\n                        \"total_reviews\": 80\n                    }\n                ],\n                \"photos\": [\n                    \"https://r-cf.bstatic.com/images/hotel/max1280x900/240/240682622.jpg\",\n                    \"https://q-cf.bstatic.com/images/hotel/max1280x900/240/240682628.jpg\",\n                    \"https://r-cf.bstatic.com/images/hotel/max1280x900/240/240682618.jpg\",\n                    \"https://r-cf.bstatic.com/images/hotel/max1280x900/240/240682765.jpg\"\n                ]\n            },\n            {\n                \"name\": \"Magic Village Yards Trademark Collection by Wyndham\",\n                \"description\": \"Magic Village Yards Orlando Near Disney is located in Orlando, Florida, 2.5 mi from Disney's Hollywood Studios. This all villa resort has an outdoor heated pool and guests can enjoy lunch and dinner at the restaurant.A fully equipped kitchen is included in all villas at Magic Village Yards. Select villas also feature barbecue facilities, outdoor kitchens and patios.Guests will find a 24-hour front desk at the property. Concierge services are available to assist guests with theme park tickets and car rental service.Local restaurants and shopping plazas are within 6 minutes' drive of the property. Orlando International Airport is 19 mi away.Celebration is a great choice for travelers interested in disneyland, family-friendly trips and tourist attractions.Couples in particular like the location – they rated it 8.8 for a two-person trip\",\n                \"location\": \"3151 Pantanal Lane, Celebration, Orlando, FL 34747, United States of America\",\n                \"average_rating\": 3,\n                \"scores_and_reviews\": [\n                    {\n                        \"name\": \"Booking\",\n                        \"score\": 7,\n                        \"max_score\": 10,\n                        \"total_reviews\": 140\n                    },\n                    {\n                        \"name\": \"Hotel Out\",\n                        \"score\": 3.5,\n                        \"max_score\": 5,\n                        \"total_reviews\": 80\n                    }\n                ],\n                \"photos\": [\n                    \"https://r-cf.bstatic.com/images/hotel/max1280x900/162/162062345.jpg\",\n                    \"https://q-cf.bstatic.com/images/hotel/max1280x900/162/162062340.jpg\",\n                    \"https://r-cf.bstatic.com/images/hotel/max1280x900/162/162062378.jpg\",\n                    \"https://r-cf.bstatic.com/images/hotel/max1280x900/162/162062425.jpg\",\n                    \"https://r-cf.bstatic.com/images/hotel/max1280x900/131/131224718.jpg\"\n                ]\n            },\n            {\n                \"name\": \"Golf View Vacation Homes\",\n                \"description\": \"Located in Central Florida, each spacious holiday home features a private screened outdoor pool and free WiFi access. Walt Disney World Resort is within a 15-minute drive away.Offering a fully equipped kitchen for making meals, the Golf View Rentals also include a cable TV. A washing machine and tumble dryer are provided, and select homes have a golf course view.A tennis court is available to guests of the Golf View Vacation Homes. All homes have free parking for guests’ convenience. If needed, an airport shuttle service can be arranged for a surcharge.Several golf courses are within a 15-minute drive of the accommodation. SeaWorld Orlando and Universal Orlando Resort are within a 25-minute drive of Golf View Vacation Homes.Celebration is a great choice for travelers interested in disneyland, family-friendly trips and tourist attractions.\",\n                \"location\": \"North Old Lake Wilson\",\n                \"average_rating\": 4,\n                \"scores_and_reviews\": [\n                    {\n                        \"name\": \"Booking\",\n                        \"score\": 7,\n                        \"max_score\": 10,\n                        \"total_reviews\": 140\n                    },\n                    {\n                        \"name\": \"Hotel Out\",\n                        \"score\": 3,\n                        \"max_score\": 5,\n                        \"total_reviews\": 80\n                    }\n                ],\n                \"photos\": [\n                    \"https://q-cf.bstatic.com/images/hotel/max1280x900/237/237561983.jpg\",\n                    \"https://r-cf.bstatic.com/images/hotel/max1280x900/237/237515751.jpg\",\n                    \"https://q-cf.bstatic.com/images/hotel/max1280x900/237/237617086.jpg\"\n                ]\n            }\n        ]\n}"
+				}
+			]
+		}
+	],
+	"protocolProfileBehavior": {}
+}

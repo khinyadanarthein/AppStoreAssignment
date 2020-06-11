@@ -1,0 +1,6 @@
+framework module Pods_wonderApp {
+  umbrella header "Pods-wonderApp-umbrella.h"
+
+  export *
+  module * { export * }
+}
